@@ -1,91 +1,114 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.result1 {
+    background-color: #f5f7fa;
+}
+
+.result1 h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
 .result {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-  padding: 50px;
-  background-color: #f5f7fa;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f5f7fa;
 }
 
 .card {
-  width: 300px;
-  background-color: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s ease;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
+
 .card:hover {
-  cursor: pointer;
-  transform: scale(1.02);
-  box-shadow: 0 6px 15px rgb(155, 154, 154);
-  opacity: 73%;
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgb(155, 154, 154);
+    opacity: 73%;
 }
 
 .card img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 15px;
-  border: 3px solid #007bff;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #007bff;
 }
+
 .card img:hover {
     cursor: zoom-in;
 }
 
 .candidate {
-  font-weight: 600;
-  font-size: 14px;
-  color: #656e75;
-  margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #656e75;
+    margin-bottom: 10px;
 }
-.candidate:hover{
+
+.candidate:hover {
     cursor: text;
 }
 
 .name {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
+
 .span {
-  color: #007bff;
-  font-weight: 500;
+    color: #007bff;
+    font-weight: 500;
 }
 
-.birth{
-  font-size: 15px;
-  color: #757575;
-  text-align: center;
-  margin-left: 50px;
-  width: 170px;
+.birth {
+    font-size: 15px;
+    color: #757575;
+    text-align: center;
+    margin-left: 50px;
+    width: 170px;
 }
 
-.phoneNumber{
-  font-size: 15px;
-  color: #757575;
-  text-align: center;
+.country {
+    font-size: 15px;
+    color: #757575;
+    text-align: center;
+    margin-left: 10px;
 }
-.number:hover{
+
+.phoneNumber {
+    font-size: 15px;
+    color: #757575;
+    text-align: center;
+}
+
+.number:hover {
     color: #007bff;
     text-decoration: underline;
     cursor: default;
 }
 
 .education {
-  font-size: 15px;
-  color: #757575;
-  text-align: center;
+    font-size: 15px;
+    color: #757575;
+    text-align: center;
 }
-.university:hover{
+
+.university:hover {
     color: rgb(218, 23, 23);
     text-decoration: underline;
     font-size: 16px;
